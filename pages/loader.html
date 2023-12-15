@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no user-scalable=no">
+    <!--favicon -->
+    <link rel="icon" sizes="180x180" href="../images/building-assets/Imagination-museum-logo.png">
+
+    <link rel="stylesheet" type="text/css" href="../styles/styles.css">
+
+    <link rel="stylesheet" type="text/css" href="../styles/normalize.css">
+
+
+    <title>Museum Website Test</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+
+    <script type="importmap">
+    {
+        "imports": {
+        "three": "https://unpkg.com/three@0.159.0/build/three.module.js",
+        "three/addons/": "https://unpkg.com/three@0.159.0/examples/jsm/"
+        }
+    }
+    </script>
+</head>
+
+<body>
+
+    <script type="module">
+        import { App } from '../scripts/app.js';
+
+        document.addEventListener("DOMContentLoaded", function () {
+            const app = new App();
+            window.app = app;
+        });
+    </script>
+    <script src="node_modules/three/build/three.min.js"></script>
+    <script type="module" src="../scripts/app.js"></script>
+
+</body>
+
+</html>
