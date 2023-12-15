@@ -1,12 +1,12 @@
 /** FOR INDEX HTML - ART GALLERY */
 // console log for inspector to see if THREE is loaded
 console.log("THREE object is loaded 😄, here is the THREE object: ", THREE)
-import * as THREE from '../node_modules/three/build/three.module.js';
+import * as THREE from 'three';
 
 import { initScene } from './sceneSetup.js';
 import { initControls } from './controls.js';
-import { addObjects } from './objects.js';
-import { animate } from './modularGallery/animation.js';
+import { addObjects } from '/objects.js';
+import { animate } from './animation.js';
 // import { initLoaders } from './loadersSetup.js';
 
 /**
