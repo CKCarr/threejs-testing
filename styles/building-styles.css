@@ -7,9 +7,9 @@ html {
 }
 
 .container {
-    position: relative;
+    /* position: relative; */
     width: 100%;
-    height: 100%;
+    height: auto;
     /* Adjust based on your content */
 }
 
@@ -35,7 +35,7 @@ html {
 /* Navbar styling */
 .navbar {
     background-color: rgb(10, 10, 82);
-    height: auto;
+    height: 80px;
     width: 100%;
 }
 
@@ -70,14 +70,13 @@ html {
     background-color: rgb(10, 10, 82);
     color: #006ce9;
     width:100%;
-    padding: 25px 0 0 0;
+    padding: 5px 0 0 0;
 }
 
 .footer-info.row {
     margin: 0;
-
-        align-items: center;
-        text-align: center;
+    align-items: center;
+    text-align: center;
 }
 
 .footer-info h3 {
@@ -89,15 +88,15 @@ html {
 
 .footer-info span {
     color: #9ac9ff;
-    padding-right: 10px;
+    /* padding-right: 10px; */
     font-size: 1.5rem;
 }
 
 
 .footer-line {
-    border-top: 1px solid #006ce9;
+    border-top: 3px solid #006ce9;
     width: 80%;
-    margin-bottom: 0;
+    /* margin-bottom: 0; */
 }
 
 .copyright {
@@ -107,10 +106,14 @@ html {
     color: #9ac9ff;
 }
 
+.footer {
+    margin-top: 5px;;
+}
+
 .footer img{
     width: 25%;
     margin-left: 38%;
-    margin-top: 0;
+    /* margin-top: 0; */
 }
 
 
